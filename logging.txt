@@ -1,0 +1,68 @@
+Request method:	POST
+Request URI:	https://eshop-backend-101.herokuapp.com/api/v1/categories/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTg0NWExZjM3YzVkMjAwMjNkZjc1ZjQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2NDUyOTY0NTcsImV4cCI6MTY0NTM4Mjg1N30.JlsCApSQaUZHJ_RjkGRHXkM8MuC2u62rZPnQMU2dSwM
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "_id": null,
+    "name": "New Category",
+    "__v": null,
+    "color": "New Color",
+    "icon": "New Icon",
+    "id": null
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 134
+Etag: W/"86-j4VpbzevOdiKjM6cEuI3MslbcqY"
+Date: Sat, 19 Feb 2022 18:47:37 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "62113b4908540e0023a8c757",
+    "name": "New Category",
+    "icon": "New Icon",
+    "color": "New Color",
+    "__v": 0,
+    "id": "62113b4908540e0023a8c757"
+}
+Request method:	DELETE
+Request URI:	https://eshop-backend-101.herokuapp.com/api/v1/categories/62113b4908540e0023a8c757
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MTg0NWExZjM3YzVkMjAwMjNkZjc1ZjQiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2NDUyOTY0NTcsImV4cCI6MTY0NTM4Mjg1N30.JlsCApSQaUZHJ_RjkGRHXkM8MuC2u62rZPnQMU2dSwM
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Type: application/json; charset=utf-8
+Content-Length: 54
+Etag: W/"36-VGLibYLQ7zHi7RF/xXOd2Tjws40"
+Date: Sat, 19 Feb 2022 18:47:37 GMT
+Via: 1.1 vegur
+
+{
+    "success": true,
+    "message": "the category was deleted!"
+}
